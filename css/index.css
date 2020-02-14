@@ -1,0 +1,23 @@
+@import "news-ticker.css";
+@import "navbar.css";
+
+:root {
+    --pri-color: #29384D;
+    --sec-color: #FF283F;
+    --high-color: #517394;
+    --low-color: #3C556E;
+    --light-color: #FFFDFA;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    background-color: var(--pri-color);
+}
+
+.container {
+    width: 90vw;
+}

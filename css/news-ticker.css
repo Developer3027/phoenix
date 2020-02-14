@@ -1,0 +1,49 @@
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h4 {
+    padding-left: 2em;
+    color: var(--sec-color);
+}
+
+.news_scroll {
+    width: 15em;
+    border: 1px solid black;
+}
+
+.social_icons {
+    padding: 0 1.5em 0 24em;
+
+}
+
+.twitter,
+.linkedin,
+.youtube {
+    padding: 0 .3em;
+    color: var(--light-color);
+}
+
+.search_box {
+    padding: 0 1em;
+    margin-right: 1em;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.search {
+    margin: 0 .5em 0 0;
+    padding: .3em;
+    border: none;
+    border-radius: 5px;
+}
+
+header,
+user {
+    display: flex;
+    justify-content: end;
+    color: var(--light-color);
+}
